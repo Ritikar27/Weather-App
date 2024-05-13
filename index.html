@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <label for="countries">Select Country:</label>
+    <div class="mainCouCon">
+    <select id="countries" required>
+        <option value="default">Select Country</option>
+    </select>
+    </div>
+
+    <label for="cities">Select City:</label>
+    <div class="mainCtyCon">
+    <select id="cities1">
+        <option value="default">Select City</option>
+    </select>
+    </div>
+    <div class="btn">
+    <button id="weather">Get Weather</button>
+    </div>
+    <div class="weather-container hide">
+    <div id="todayCon">
+    <h3 id="today"></h3>
+    <div id="locationDetail">
+        <p id="countryDetails"></p>
+    </div>
+    <div id="date"></div>
+    <div id="astronomy">
+        <p id="sunrise"></p>
+        <p id="sunset"></p>
+    </div>
+    <div id="atmosphere">
+        <p id="humidity"></p>
+        <p id="visibility">
+    </div>
+    <div id="condition"><p id="temp"></p>
+    </p>
+    <p id="text"></p>
+    </div>
+    </div>
+    <div id="tomCon">
+    <h3 id="tomorrow"></h3>
+    <div class="tomWeather">
+        <p id="tomWeather"></p>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
